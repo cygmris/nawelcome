@@ -1,0 +1,20 @@
+{
+  "name": "NAWelcome-9.0",
+  "authors": [
+    "cygmris <root@schoolpot.org>"
+  ],
+  "description": "NAWelcome-9.0-frontend",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.7"
+  }
+}
