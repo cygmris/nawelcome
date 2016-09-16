@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="app/vendor/materialize/dist/css/materialize.css">
+
+</head>
+<body>
+
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Logo</a>
+    <!-- activate side-bav in mobile view -->
+    <a href="#" data-activates="mobile-demo" class="btn button-collapse"><i class="material-icons">menu</i></a>
+
+  </div>
+
+
+</nav>
+
+
+<div style="margin:200px;"></div>
+
+ <!-- data-position can be : bottom, top, left, or right -->
+  <!-- data-delay controls delay before tooltip shows (in milliseconds)-->
+  <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="<img src='/img/qrcode_256.jpg'> </img>">Hover me!</a>
+
+
+
+  <script src="app/vendor/jquery/dist/jquery.js"></script>
+  <script src="app/vendor/materialize/dist/js/materialize.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.tooltipped').tooltip({delay: 50, html: true});
+    });
+  </script>
+</body>
+</html>
+
+
