@@ -5,101 +5,34 @@
     <title>2016网络管理协会招新</title>
     <link rel="stylesheet" href="app/vendor/materialize/dist/css/materialize.css">
     <link rel="stylesheet" href="app/public/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script data-main="app/boot" src="app/vendor/requirejs/require.js" defer async="true"></script>
 </head>
 <body>
-    <header>
 
-<div class="main">
-        <!-- Dropdown Structure -->
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">one</a></li>
-            <li><a href="#!">two</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">three</a></li>
-        </ul>
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">
-                    <img src="img/navbar-logo.png" alt="">
-                </a>
-                <!-- activate side-bav in mobile view -->
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down slide">
-                    <li class="tab"><a href="sass.html">协会主页</a></li>
-                    <li class="tab"><a href="components.html">加入我们</a></li>
-                    <!-- Dropdown Trigger -->
-                    <!-- <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">旗下产品</i></a></li> -->
-                    <!-- <div class="indicator"></div> -->
-                </ul>
-                <!-- navbar for mobile -->
-                <ul class="side-nav" id="mobile-demo">
-                    <li class="tab"><a href="sass.html">Sass</a></li>
-                    <li class="tab"><a href="components.html">Components</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="background-info jumbotron">
-        <div class="container">
-            <div class="row">
-                <img class="responsive-img center center-block" src="img/index.png">
-                
-            </div>
-        </div>
-    </div>
 
-</div>
-    <!-- <img class="materialboxed" src="img/index.png"> -->
 
-<div class="container">
-    <div class="row">
-        <video class="responsive-video" controls>
-           <source src="vod/nawelcome.mp4" type="video/mp4">
-         </video>
-    </div>
+<header id="bb-header"></header>
+<div id="bb-page"></div>
+
+<div class="progress loading-app">
+  <div class="indeterminate"></div>
+
+
 </div>
            
 
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text"></h5>
-            <pre class="grey-text text-lighten-4">
-加入NA的两种姿势：
-
-1、通过本网页填交报名表。
-2、协会全院招新时间到喷泉广场领取并填交报名表，
-逾期仍可通过在线报名方式报名。
-            </pre>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">交流&咨询平台</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!"></a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">2016NA咨询1群：6666</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">2016NA咨询2群：6666</a></li>
-              <li><a class="grey-text text-lighten-3 tooltipped" data-position="top" data-delay="50" data-tooltip="<img src='/img/qrcode_256.jpg'> </img>" href="#!">微信公众号：SISE-NA</a></li>
-              
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        © 2016 Copyright NA.SISE
-        <a class="grey-text text-lighten-4 right" href="#!"></a>
-        </div>
-      </div>
-    </footer>
+<header id="bb-footer"></header>
 
 
 
-    <script src="app/vendor/jquery/dist/jquery.js"></script>
+<!--     <script src="app/vendor/jquery/dist/jquery.js"></script>
     <script src="app/vendor/materialize/dist/js/materialize.js"></script>
 
     <script src="app/app.js"></script>
 
-    <script src="app/slide.js"></script>
+    <script src="app/slide.js"></script> -->
 </body>
 </html>
