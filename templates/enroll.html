@@ -1,0 +1,123 @@
+<div class="form-wrap">
+  <div class="container">
+    <div class="row">
+       <form id="enroll-form" action="http://localhost:16666/server.php" class="col s12">
+         <div class="row">
+           <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+             <input name="name" placeholder="小N" id="name" type="text" class="validate">
+             <label for="name">姓名</label>
+           </div>
+           <div class="input-field col s6">
+            <i class="material-icons prefix">school</i>
+             <input name="sno" id="sno" type="text" class="validate">
+             <label for="sno">学号</label>
+           </div>
+         </div>
+
+         <div class="row">
+           <div class="input-field col s12 m6">
+            <i class="material-icons prefix">contacts</i>
+             <input name="qq" id="QQ" type="text" class="validate">
+             <label for="QQ">QQ</label>
+           </div>
+           <div class="input-field col s12 m6">
+
+            <i class="material-icons prefix">bookmark</i>
+
+             <input name="major" id="major" type="text" class="validate">
+             <label for="major">专业</label>
+           </div>
+
+         </div>
+         <div class="row">
+           <div class="input-field col s12 m4 push-m4">
+            <i class="material-icons prefix">phone</i>
+             <input name="phone" id="phone" type="text" class="validate">
+             <label for="phone">电话</label>
+           </div>
+         </div>
+
+         <div class="row">
+          <div class="col s6 m4 push-m3">
+            <p>
+              <input value="宣传部" name="join-in[]" id="pub" type="checkbox" />
+              <label for="pub">宣传部</label>
+            </p>
+            <p>
+              <input value="资源部" name="join-in[]" id="res" type="checkbox"/>
+              <label for="res">资源部</label>
+            </p>
+            <p>
+              <input value="技术部" name="join-in[]" id="tech" type="checkbox" />
+              <label for="tech">技术部</label>
+            </p>
+            <p>
+              <input value="秘书部" name="join-in[]" id="sec" type="checkbox" />
+              <label for="sec">秘书部</label>
+            </p>
+            <p>
+              <input value="外联部" name="join-in[]" id="ext" type="checkbox" />
+              <label for="ext">外联部</label>
+            </p>
+          </div>
+
+          
+           <div class="col s6 m4 push-m3">
+              <div style="position: absolute; top: -45px;">
+                <p>
+                  <label style="font-size:12px;">若选择了资源部，请从下方选择一至两个愿意负责的板块：</label>
+                </p>
+              </div>
+             <p>
+               <input value="软件" name="res-branch[]" id="branch-soft" type="checkbox" />
+               <label for="branch-soft">软件</label>
+             </p>
+             <p>
+               <input value="学习视频" name="res-branch[]" id="branch-learning-video" type="checkbox"/>
+               <label for="branch-learning-video">学习视频</label>
+             </p>
+             <p>
+               <input value="电影" name="res-branch[]" id="branch-movie" type="checkbox" />
+               <label for="branch-movie">电影</label>
+             </p>
+             <p>
+               <input value="电视剧" name="res-branch[]" id="branch-drama" type="checkbox" />
+               <label for="branch-drama">电视剧</label>
+             </p>
+             <p>
+               <input value="综艺" name="res-branch[]" id="branch-variety" type="checkbox" />
+               <label for="branch-variety">综艺</label>
+             </p>
+           </div>
+
+           <div class="col s6 m4 push-m1 push-s6">
+             <p>
+               <input value="体育" name="res-branch[]" id="branch-sport" type="checkbox" />
+               <label for="branch-sport">体育</label>
+             </p>
+             <p>
+               <input value="音乐" name="res-branch[]" id="branch-music" type="checkbox" />
+               <label for="branch-music">音乐</label>
+             </p>
+             <p>
+               <input value="动漫" name="res-branch[]" id="branch-comic" type="checkbox" />
+               <label for="branch-comic">动漫</label>
+             </p>
+             <p>
+               <input value="日韩" name="res-branch[]" id="branch-jandsk" type="checkbox" />
+               <label for="branch-jandsk">日韩</label>
+             </p>
+           </div>
+
+         </div>
+
+         <div style="margin-top: 36px;" class="center">
+           <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+             <i class="material-icons right">send</i>
+           </button>
+         </div>
+       </form>
+     </div>
+  </div>
+</div>

@@ -1,3 +1,11 @@
+@charset "UTF-8";
+.text-cool {
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif; }
+
+.btn-md {
+  width: 40.5px;
+  height: 40.5px; }
+
 header nav {
   background-color: #FFFFFF; }
   header nav .brand-logo {
@@ -15,7 +23,7 @@ header nav {
     background-color: #f6b2b5; }
 
 .background-info {
-  background-color: #9DE7FC; }
+  background-color: #56b5d3; }
 
 .jumbotron {
   padding-top: 30px; }
@@ -27,5 +35,40 @@ body {
 
 .main {
   flex: 1 0 auto; }
+
+.text-indent {
+  text-indent: 2em; }
+
+#cow-say {
+  margin-top: 30px;
+  color: #4ED3FA; }
+
+.icon-wrap li span {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  font-size: 50px;
+  line-height: 86px; }
+
+footer.page-footer {
+  background-color: #56b5d3;
+  clear: both;
+  position: relative;
+  z-index: 10; }
+
+footer.page-footer .footer-copyright {
+  color: #FFF;
+  background-color: transparent;
+  font: 100 14px/1.5 Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+  margin: auto 0; }
+  footer.page-footer .footer-copyright span {
+    display: block;
+    overflow: hidden; }
+
+.fixed-action-btn ul {
+  bottom: 48px; }
+
+.form-wrap {
+  margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */

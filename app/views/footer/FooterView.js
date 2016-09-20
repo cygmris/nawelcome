@@ -3,7 +3,7 @@ define([
   'underscore',
   'backbone',
   'text!templates/footer/footer.html'
-], function($, _, Backbone, homeTemplate) {
+], function($, _, Backbone, footerTemplate) {
   var FooterView = Backbone.View.extend({
     el: $('#bb-footer'),
 
@@ -11,7 +11,7 @@ define([
       // Compile the template using underscore
 
       // Load the compiled HTML into the Backbone "el"
-      this.$el.html(homeTemplate);
+      this.$el.addClass("page-footer").html(footerTemplate);
 
     },
 

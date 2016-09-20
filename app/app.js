@@ -4,18 +4,29 @@ define([
   'underscore',
   'backbone',
   'router', // Request router.js
-  'slide'
   // 'materialize',
-], function($, _, Backbone, Router, Slide) {
+  'pluginsloader',
+
+  // 'materialize',
+], function($, _, Backbone, Router, Pluginsloader) {
   var initialize = function() {
     // Pass in our Router module and call it's initialize function
 
 
+    $('.preloader-wrapper').fadeOut();
+
     Router.initialize();
 
-    $('.loading-app').fadeOut();
+    // setTimeout(function(){ 
+    //   setTimeout(function(){
+    //   }, 800);
+    // }, 1000);
 
+    // $('ul.slide').slide()
 
+    // console.log($('ul.slide'));
+    Pluginsloader.initialize();
+    
 
   };
   

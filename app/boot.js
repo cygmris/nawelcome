@@ -15,12 +15,39 @@ require.config({
     // materialize: 'libs/materialize.min',
     // underscore: 'libs/underscore-min',
     // backbone: 'libs/backbone-min',
-    materialize: 'vendor/materialize/dist/js/materialize',
+    // materialize: 'vendor/materialize/dist/js/materialize',
     text: 'vendor/text/text',
 
-    templates: '../templates',
+    domReady: 'vendor/domReady/domReady',
+
+    velocity: 'vendor/materialize/js/velocity.min',
+
+    slide: 'plugins/slide',
+
+    buttons: 'vendor/materialize/js/buttons',
+
+    forms: 'plugins/forms',
+
+    // utils: 'vendor/materialize/js/global',
+    utils: 'plugins/utils',
+
+    // sideNav: 'plugins/sideNav',
+    sideNav: 'vendor/materialize/js/sideNav',
+
+    hammerjs: 'vendor/materialize/js/hammer.min',
+    
+    'hammer-jquery': 'vendor/materialize/js/jquery.hammer',
+
+    templates: '../templates'
   },
   shim: {
+    'hammerjs': {
+      exports: 'Hammer',
+      deps: ['jquery']
+    },
+    'hammer-jquery': {
+      deps: ['jquery']
+    },
     'underscore': {
       // deps: ['jquery'],
       exports: '_'
@@ -33,8 +60,6 @@ require.config({
       exports: ['Backbone']
 
     },
-
-
 
   }
 });

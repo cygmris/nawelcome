@@ -1,0 +1,20 @@
+<script type="text/template" id="artist-list-template">
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Hometown</th>
+      <th>Favorite Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% _.each(artists, function(artist) { %>
+      <tr>
+        <td><%= artist.get('name') %></td>
+        <td><%= artist.get('hometown') %></td>
+        <td><%= artist.get('favoriteColor') %></td>
+      </tr>
+    <% }); %>
+  </tbody>
+</table>
+</script>
